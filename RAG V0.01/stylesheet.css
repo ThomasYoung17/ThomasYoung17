@@ -1,0 +1,69 @@
+
+
+/* Text Fetures*/
+
+h1, h2, h3 {
+	font-family: 'F3';
+	color: #939393;
+}
+
+p, li {
+	font-family: Britannic;
+	color: #939393;
+}
+
+a {
+	font-family: Britannic;
+	color: #C1C1C1;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*Font Sets*/
+
+@font-face {
+	font-family: 'F1';
+	src: url('Fonts/F1.otf');
+}
+
+@font-face {
+	font-family: 'F2';
+	src: url('Fonts/F2.ttf');
+}
+
+@font-face {
+	font-family: 'F3';
+	src: url('Fonts/F3.otf');
+}
+
+/*Other*/
+
+* {
+	text-align: center;
+}
+
+body {
+	background-color: #001734;
+}
+
+
+/*Classes*/
+.RA {
+	color: #FF7C00;
+	font-family: 'F1';
+}
+
+.GN {
+	color: #00FF13;
+	font-family: 'F2';
+}
+
+.logo {
+	font-size: 50px;
+}
+
+.LL {
+	text-decoration: none;
+}
